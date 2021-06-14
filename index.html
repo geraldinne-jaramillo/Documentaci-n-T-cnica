@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Documentación técnica</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <header id="header_nav">Documentación de la página</header>
+        <br>
+        <br>
+        <a href="#Java_lenguaje_de_programación">Java (lenguaje de programación)</a>
+        <br>
+        <br>
+        <a href="#historia">Historia</a>
+        <br>
+        <br>
+        <a href="#sintaxis">Sintaxis</a>
+        <br>
+        <br>
+        <a href="#palabras_clave">Palabras clave</a>
+        <br>
+        <br>
+        <a href="#operadores">OPeradores</a>
+    </nav>
+    <br>
+    <main id="main-doc">
+        <section class="main-section" id="Java_lenguaje_de_programación">
+            <header><strong>Java (lenguaje de programación)</strong></header>
+            <p>Java es un lenguaje de programación y una plataforma informática 
+                que fue comercializada por primera vez en 1995 por Sun Microsystems. <br> Java es, a partir de 2012, uno de los lenguajes de programación más populares en uso, particularmente para aplicaciones de 
+                cliente-servidor de web, con unos diez millones de usuarios reportados</p>
+        </section>
+
+            <br>
+
+        <section class="main-section" id="historia"> 
+            <header><strong>Historia</strong></header>
+            <p>El lenguaje de programación Java fue desarrollado originalmente por James Gosling, de Sun Microsystems (constituida en 1983 y posteriormente adquirida el 27 de enero de 2010 por la compañía Oracle),4​ y publicado en 1995 
+                como un componente fundamental de la plataforma Java de Sun Microsystems.  </p>
+        </section>
+
+            <br>
+
+        <section class="main-section" id="sintaxis"> 
+            <header><strong>Sintaxis</strong></header>
+            <p>Su sintaxis deriva en gran medida de C y C++, pero tiene menos utilidades de bajo nivel que cualquiera de ellos. Las aplicaciones de Java son compiladas 
+                a bytecode (clase Java), que puede ejecutarse en cualquier máquina virtual Java (JVM) sin importar la arquitectura de la computadora subyacente.</p>
+            <li>La palabra reservada  <code>"void"</code> indica que el método main no devuelve nada.</li>
+            <li>Los programas que se ejecutan de forma independiente y autónoma, deben contener el método  <code>"main()"</code>.</li>
+            <li>La palabra reservada  <code>"public"</code> significa que un método puede ser llamado desde otras clases, o que la clase puede ser usada por clases fuera de la jerarquía de la propia clase. Otros tipos de acceso son ”private” o ”protected”.</li>
+            <li>El método main debe aceptar un array de objetos tipo String. Por acuerdo se referencia como  <code>"args",</code> aunque puede emplearse cualquier otro identificador.</li>
+        </section>
+
+            <br>
+
+        <section class="main-section" id="palabras_clave"> 
+            <header><strong>Palabras clave</strong></header>
+            <p>Son los identificadores reservados por java para cumplir con un objetivo específico en el código y el compilador, se usan de forma limitada y en casos específicos. <br> Las palabras claves que usa Java son las siguientes:</p>
+            <li>public</li>
+            <li>private</li>
+            <li>static</li>
+            <li>void</li>
+            <li>return</li>
+            <li>import</li>
+            <li>class</li>
+            <li>try</li>
+            <li>catch</li>
+            <li>if</li>
+            <li>else</li>
+            <li>true</li>
+            <li>false</li>
+            <p>Ejemplo:</p>
+            <code>final static double pi= 3.1416;</code>
+        </section>
+
+            <br>
+
+        <section class="main-section" id="operadores"> 
+            <header><strong>Operadores</strong></header>
+            <p>Los operadores son ejecutados según su precedencia: si cuentan con una precedencia mayor serán evaluados antes que los de precedencia menor; si por casualidad se llegasen a presentar
+                 operadores con el mismo nivel de precedencia, estos se evaluarán de derecha a izquierda. <br>Así se clasefican los operadores utilizados en Java según su nivel de precedencia, siendo arriba el nivel más alto:</p>
+            <li><strong>Operadores posfijos</strong> [ ] . ( parámetros) expr++ expr--</li>
+            <li><strong>Operadores unarios</strong> ++expr --expr +expr -expr ~ !</li>
+            <li><strong>Multiplicación</strong> *</li>
+            <li><strong>División</strong>/</li>
+            <li><strong>Resto de la división</strong> %</li>
+            <li><strong>Suma</strong> +</li>
+            <li><strong>Resta</strong> -</li>
+            <li><strong>Desplazamiento</strong> << >> >>></li>
+            <li><strong>Comparación</strong> < > <= >= </li>
+            <li><strong>Igualdad</strong> == !=</li>
+            <p>Ejemplo:</p>
+            <code> int numero1 = 3;
+                int numero2 = 4;
+                int resultado;
+                resultado = numero1 + numero2 * 3;
+                System.out.println (resultado); //esto imprime el valor de 15</code>
+        </section>
+
+             <br>
+
+             <section class="main-section" id="referenica">
+                <header><strong>Referencia</strong></header>
+                <p>Consulte la infomación completa en el siguiente enlace: <a href="https://es.wikipedia.org/wiki/Java_(lenguaje_de_programaci%C3%B3n)" target="_blank">wikipedia   </a></p>
+            </section>
+
+    </main>
+
+</body>
+</html>

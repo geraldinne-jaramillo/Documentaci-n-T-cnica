@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+  }
+
+#nav-bar{
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+}
+
+header{
+    text-align: left;
+}
+
+p, code, li{
+    text-align: left;
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 18px;
+}
+
+header{
+    color:darkblue;
+    margin-top: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+}
+
+code{
+    color: #4d4e53;
+    
+}
+
+li{
+    margin: 10px;
+    text-align: left;
+    margin-left: 60px;
+}
+
+a{
+ text-decoration: none;
+ margin: 20px;
+ color: #4d4e53;
+ 
+
+}
+
+#nav-bar{
+  text-decoration: none;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+
+#header_nav{
+    text-align: center;
+    color: mediumblue;
+}
